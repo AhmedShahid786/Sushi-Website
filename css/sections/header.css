@@ -1,0 +1,28 @@
+.header__nav {
+    display: flex;
+    overflow: hidden;
+}
+
+.header__logo {
+    display: flex;
+    padding: 20px;
+    width: 40%;
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.header__menu {
+    width: 60%;
+    display: flex;
+    gap: 2.5rem;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    list-style: none;
+    font-family: var(--playfair-display);
+}
+
+.header__menu-mobile img {
+    width: 30px;
+    cursor: pointer;
+}
